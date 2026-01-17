@@ -1,7 +1,7 @@
 from datetime import datetime 
 class Employee:
-    auto_id = 1          # للـ id الداخلي
-    auto_emp_id = 1      # لتوليد emp_id
+    auto_id = 1         
+    auto_emp_id = 1     
     employees = [] # help us to save data of employees 
 
     # ======================
@@ -291,7 +291,7 @@ if __name__ == "__main__":
             Employee.list_employees()
 
         elif choice == "6":
-            print("Bye ")
+         
             break
 
         else:
