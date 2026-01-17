@@ -291,9 +291,9 @@ if __name__ == "__main__":
             Employee.list_employees()
 
         elif choice == "6":
-            print("Bye 👋")
+            print("Bye ")
             break
 
         else:
-            print("❌ Invalid choice")
+            print(" Invalid choice")
 
